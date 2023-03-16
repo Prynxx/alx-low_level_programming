@@ -1,4 +1,4 @@
-# C - Doubly linked list
+# prynxx
 
 * What is a doubly linked list
 * How to use doubly linked lists
