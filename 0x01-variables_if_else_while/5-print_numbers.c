@@ -1,19 +1,20 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - program that prints 0-9
+ * All your code should be in the main function
+ * Return: 0
  */
+
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i < 10; i++)
-	{
-		printf("%i", i);
-	}
+	while (n < 10)
+{
+	printf("%d", n);
+	n += 1;
+}
 	printf("\n");
 	return (0);
 }

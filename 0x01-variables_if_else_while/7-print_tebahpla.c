@@ -1,19 +1,20 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - program that prints low case alphabets in reverse.
+ * You can only use the putchar function
+ * Return: 0
  */
+
 int main(void)
 {
-	char x;
+	int n = 122;
 
-	for (x = 'z'; x >= 'a'; x--)
-	{
-		putchar(x);
-	}
+	while (n > 96)
+{
+	putchar(n);
+	n -= 1;
+}
 	putchar('\n');
 	return (0);
 }
